@@ -1,8 +1,9 @@
 # Linear Regression with PyTorch
 
+## Introduction
 This program demonstrates the implementation of a simple linear regression model using PyTorch. It uses a generated dataset with sklearn to predict a dependent variable (y) based on an independent variable (x). The model is trained using gradient descent to minimize the mean squared error (MSE).
 
-Libraries to import: 
+### Libraries to import: 
 ```
 import torch                        #pytorch library - for for tensor computations
 import torch.nn as nn               #for building neural networks
