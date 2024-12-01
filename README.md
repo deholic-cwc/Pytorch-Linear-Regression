@@ -5,7 +5,7 @@ This program demonstrates the implementation of a simple linear regression model
 
 ### Libraries to import: 
 ```
-import torch                        #pytorch library - for for tensor computations
+import torch                        #pytorch library - for tensor computations
 import torch.nn as nn               #for building neural networks
 import numpy as np                  #numerical data manipulation
 from sklearn import datasets        #To generate and load datasets
