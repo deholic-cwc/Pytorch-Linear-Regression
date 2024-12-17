@@ -17,8 +17,8 @@ import matplotlib.pyplot as plt     #for creating visualizations
 x_numpy, y_numpy = datasets.make_regression(n_samples=70, n_features =1, noise=17, random_state=1)
 # x_numpy: A 2D NumPy array with shape (n_samples, n_features)
 # y_numpy: A 1D NumPy array with shape (n_samples,)
-```
 n_fueatures= 1 - Represent 2D structure
+```
 
 ```
 x = torch.from_numpy(x_numpy.astype(np.float32)) #convert data type for tensor computations
