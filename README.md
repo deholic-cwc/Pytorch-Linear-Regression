@@ -57,7 +57,7 @@ for epoch in range(num_epochs):
     optimizer.zero_grad() 
 
     if (epoch+1) % 10 == 0:
-        print(f'Epoch [{epoch+1}/ {num_epochs}], Loss: {loss.item():0.4}')
+        print(f'Epoch [{epoch+1}/ {num_epochs}], Loss: {loss.item():0.4}') #check
 ```
 
 #plot 
