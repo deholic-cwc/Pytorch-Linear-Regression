@@ -20,13 +20,15 @@ x_numpy, y_numpy = datasets.make_regression(n_samples=70, n_features =1, noise=1
 ```
 n_fueatures= 1 - Represent 2D structure
 
+```
 x = torch.from_numpy(x_numpy.astype(np.float32)) #convert data type for tensor computations
 y = torch.from_numpy(y_numpy.astype(np.float32)) 
 y = y.view(y.shape[0],1) # Reshape into a 2D tensor with shape (n, 1)
 
 n_samples, n_features = x.shape
-
+```
 # 1. define model 
+
 input_size = n_features 
 output_size = 1 
 model = nn.Linear(input_size, output_size) 
