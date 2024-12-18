@@ -1,7 +1,7 @@
 # Linear Regression with PyTorch
 
 ## Introduction
-This program demonstrates the implementation of a simple linear regression model using PyTorch. Understanding the use of gradient descent, and how the learning rate is applied to take steps. 
+This program demonstrates the implementation of a linear regression model using PyTorch.
 
 ### Libraries to import: 
 ```
